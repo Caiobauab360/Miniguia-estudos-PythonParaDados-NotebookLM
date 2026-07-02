@@ -418,7 +418,15 @@ Python: Scripts de automação para processamento de documentos
 GitHub: Versionamento e portfólio do projeto
 
 📌 Projeto desenvolvido como parte do curso de Automação de Dados com IA
+
+
 🔧 Ferramentas: Google NotebookLM, Python, Playwright, VS Code
+
+
 📅 Período: 2026
+
+
 👤 Autor: Caio Pereira Bauab
+
+
 🔗 Repositório:(https://github.com/Caiobauab360?tab=repositories)
