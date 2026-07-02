@@ -84,32 +84,23 @@ Arquivos selecionados da documentação Python:
 3. Bibliotecas Essenciais para Análise de Dados
 Para complementar a documentação padrão do Python, foram adicionadas 13 fontes especializadas, formando a base do ecossistema de análise de dados:
 
-#	Biblioteca	Tipo	Fonte
-1	NumPy	| Numérico	| [MIT NumPy Book](https://web.mit.edu/dvp/Public/numpybook.pdf)
-
-2	SciPy	| Científico	| [Documentação Oficial](https://static.scipy.org/doc/scipy-1.8.0/scipy-ref-1.8.0.pdf)
-
-3	Pandas	| Dados | [Tabulares	Python Data Analysis Book](https://python-course.eu/books/bernd_klein_python_data_analysis_a4.pdf)
-
-4	Matplotlib| 	Visualização	| [Documentação Oficial](https://matplotlib.org/stable/Matplotlib.pdf)
-
-5	Seaborn |	Visualização	| [Resumo GitHub](https://github.com/wangyingsm/Python-Data-Science-Handbook/blob/master/printable/04.14-Visualization-With-Seaborn.pdf)
-
-6	Scikit-learn	| Machine Learning	| [Documentação Oficial](https://scikit-learn.org/0.22//_downloads/scikit-learn-docs.pdf)
-
-7	Statsmodels	| Estatística	| PDF 2014 - [Perktold/Seabold](https://www.statsmodels.org/stable/index.html)
-
-8	Requests	| HTTP	| Documentação disponível via biblioteca padrão
-
-9	SQLAlchemy	| Banco de Dados	| Documentação disponível via biblioteca padrão
-
-10	Plotly	| Visualização Interativa	| [Cheat Sheet](https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf)
-
-11	Dask	| Big Data	| [Guia GitHub](https://raw.githubusercontent.com/SupaeroDataScience/DE/master/readings/dask.pdf)
-12	PyTorch	| Deep Learning	|[ Livro](https://isip.piconepress.com/courses/temple/ece_4822/resources/books/Deep-Learning-with-PyTorch.pdf)
-13	TensorFlow	| Deep Learning	| [Livro](https://www.hlevkin.com/hlevkin/45MachineDeepLearning/DL/TensorFlow-for-Machine-Intelligence-A-Hands-On-Introduction-to-Learning-Algorithms.pdf)
-14	NLTK	| NLP	| [Livro](https://tjzhifei.github.io/resources/NLTK.pdf)
-15	spaCy	| NLP	| [Documentação](https://spacy.readthedocs.io/_/downloads/en/latest/pdf/)
+| Biblioteca | Tipo | Fonte/Referência |
+|------------|------|------------------|
+| NumPy | Numérico | [MIT NumPy Book](https://web.mit.edu/dvp/Public/numpybook.pdf) |
+| SciPy | Científico | [Documentação Oficial](https://static.scipy.org/doc/scipy-1.8.0/scipy-ref-1.8.0.pdf) |
+| Pandas | Dados | [Tabulares Python Data Analysis Book](https://python-course.eu/books/bernd_klein_python_data_analysis_a4.pdf) |
+| Matplotlib | Visualização | [Documentação Oficial](https://matplotlib.org/stable/matplotlib.pdf) |
+| Seaborn | Visualização | [Resumo GitHub](https://github.com/wangyingsm/Python-Data-Science-Handbook/blob/master/printable/04_14_Visualization-with-Seaborn.pdf) |
+| Scikit-learn | Machine Learning | [Documentação Oficial](https://scikit-learn.org/0.22/__downloads/scikit-learn-docs.pdf) |
+| Statsmodels | Estatística | [PDF 2014 - Perkold/Seabold](https://www.statsmodels.org/stable/index.html) |
+| Requests | HTTP | Documentação disponível via biblioteca padrão |
+| SQLAlchemy | Banco de Dados | Documentação disponível via biblioteca padrão |
+| Plotly | Visualização Interativa | [Cheat Sheet](https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf) |
+| Dask | Big Data | [Guia GitHub](https://raw.githubusercontent.com/SupareoDataScience/DE/master/readings/dask.pdf) |
+| PyTorch | Deep Learning | [Livro](https://github.com/liberty/Deep-Learning-with-PyTorch.pdf) |
+| TensorFlow | Deep Learning | [Livro](https://www.hlevkin.com/levkin/45MachineDeepLearning/DL/TensorFlow-for-Machine-Intelligence-A-Hands-On-Introduction-to-Learning-Algorithms.pdf) |
+| NLTK | NLP | [Livro](https://t.jzhifeli.github.io/resources/NLTK.pdf) |
+| spaCy | NLP | [Documentação](https://spacy.readthedocs.io/__downloads/en/latest/pdf/) |
 
 # ⚙️ Engenharia de Prompts e "Cicatrizes": Refinando o Assistente de Código
 É importante para este tipo projeto o processo iterativo de testar, errar e refinar prompts para transformar o NotebookLM em um assistente de código verdadeiramente útil. Mais do que apenas fazer perguntas, a engenharia de prompts envolveu entender como a IA "pensa" e como adaptar nossas perguntas para obter respostas precisas, contextualizadas e acionáveis.
