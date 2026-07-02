@@ -409,13 +409,16 @@ arr.sum()           # Soma
 Este projeto transformou o NotebookLM em um assistente especializado para consulta de códigos Python voltados para análise de dados. A curadoria cuidadosa de fontes, combinando materiais do curso, documentação oficial convertida e livros especializados, criou uma base de conhecimento robusta e confiável.
 
 🛠️ Ferramentas Utilizadas
-Google NotebookLM: Curadoria de fontes e assistente de código
 
-Playwright: Conversão de HTML para PDF no VS Code
 
-Python: Scripts de automação para processamento de documentos
+* Google NotebookLM: Curadoria de fontes e assistente de código
 
-GitHub: Versionamento e portfólio do projeto
+* Playwright: Conversão de HTML para PDF no VS Code
+
+* Python: Scripts de automação para processamento de documentos
+
+* GitHub: Versionamento e portfólio do projeto
+
 
 📌 Projeto desenvolvido como parte do curso de Automação de Dados com IA
 
