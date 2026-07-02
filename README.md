@@ -316,14 +316,16 @@ O que funcionou:
 ✅ Variações: Incluiu versão horizontal e anotações
 
 📚 Resumo das "Cicatrizes" e Lições Aprendidas
-Desafio Encontrado	| Sintoma	| Solução Aplicada	| Prompt Refinado
-Respostas genéricas	| IA dá definições teóricas sem exemplos	| Adicionar persona e âncora nas fontes	| "Atue como assistente de código. Com base nas fontes..."
-Código sem contexto	| Código solto, sem explicação de uso	| Solicitar comentários e contexto do problema	| "Inclua comentários explicativos em cada linha..."
-Falta de exemplos	| Resposta conceitual, sem aplicação prática	| Exigir exemplos reais com dados fictícios	| "Forneça 3 exemplos práticos com dados fictícios..."
-Sem progressão	| Todos exemplos no mesmo nível	| Pedir complexidade crescente	| "Exemplos em níveis: básico, intermediário e avançado"
-Falta de alternativas	| Apenas uma solução apresentada	| Solicitar múltiplas abordagens	| "Forneça pelo menos 3 alternativas com trade-offs"
-Respostas desconectadas das fontes	| IA inventa informações	| Ancorar explicitamente nas fontes	| "Com base EXCLUSIVAMENTE nas fontes carregadas..."
-Estrutura da resposta incorreta	| Resposta em texto corrido	| Especificar formato de saída	| "Estruture como: checklist, código, explicação"
+
+| Desafio Encontrado | Sintoma | Solução Aplicada | Prompt Refinado |
+|--------------------|---------|------------------|-----------------|
+| Respostas genéricas | IA dá definições teóricas sem exemplos | Adicionar persona e âncora nas fontes | "Atue como assistente de código. Com base nas fontes..." |
+| Código sem contexto | Código solto, sem explicação de uso | Solicitar comentários e contexto do problema | "Inclua comentários explicativos em cada linha..." |
+| Falta de exemplos | Resposta conceitual, sem aplicação prática | Exigir exemplos reais com dados fictícios | "Forneça 3 exemplos práticos com dados fictícios..." |
+| Sem progressão | Todos exemplos no mesmo nível | Pedir complexidade crescente | "Exemplos em níveis: básico, intermediário e avançado" |
+| Falta de alternativas | Apenas uma solução apresentada | Solicitar múltiplas abordagens | "Forneça pelo menos 3 alternativas com trade-offs" |
+| Respostas desconectadas das fontes | IA inventa informações | Ancorar explicitamente nas fontes | "Com base EXCLUSIVAMENTE nas fontes carregadas..." |
+| Estrutura da resposta incorreta | Resposta em texto corrido | Especificar formato de saída | "Estrutura como: checklist, código, explicação" |
 
 💡 Guia Prático: Como Extrair o Melhor do Seu NotebookLM
 Com base nas cicatrizes acumuladas, aqui está meu fluxo de trabalho recomendado para consultas futuras:
@@ -350,14 +352,16 @@ pd.set_option('display.max_columns', None)  # Mostrar todas as colunas
 pd.set_option('display.max_rows', 100)      # Limitar linhas exibidas
 ```
 2. Operações Essenciais com Pandas
-Operação	| Código	| Descrição
-Carregar dados	| pd.read_csv('arquivo.csv')	| Ler CSV para DataFrame
-Explorar dados	| df.head(), df.info(), df.describe()	| Primeiras linhas, informações, estatísticas
-Selecionar dados	| df['coluna'], df[['col1', 'col2']]	| Selecionar colunas
-Filtrar dados	| df[df['col'] > 10]	| Filtro condicional
-Agrupar dados	| df.groupby('categoria').mean()	| Agrupar e agregar
-Combinar dados	| pd.merge(df1, df2, on='chave')	| Mesclar por coluna
-Tratar dados faltantes	| df.dropna(), df.fillna(valor)	| Remover ou preencher NaN
+
+| Operação | Código | Descrição |
+|----------|--------|-----------|
+| Carregar dados | `pd.read_csv('arquivo.csv')` | Ler CSV para DataFrame |
+| Explorar dados | `df.head()`, `df.info()`, `df.describe()` | Primeiras linhas, informações, estatísticas |
+| Selecionar dados | `df['coluna']`, `df[['col1', 'col2']]` | Selecionar colunas |
+| Filtrar dados | `df[df['col'] > 10]` | Filtro condicional |
+| Agrupar dados | `df.groupby('categoria').mean()` | Agrupar e agregar |
+| Combinar dados | `pd.merge(df1, df2, on='chave')` | Mesclar por coluna |
+| Tratar dados faltantes | `df.dropna()`, `df.fillna(valor)` | Remover ou preencher NaN |
 
 3. Operações Essenciais com NumPy
 ```python
@@ -373,12 +377,14 @@ arr.sum()           # Soma
 ```
 
 📚 Glossário de Termos e Conceitos (Foco em Código)
-Termo	| Definição	| Exemplo de Código
-DataFrame	| Estrutura bidimensional do Pandas	| df = pd.DataFrame({'A': [1,2], 'B': [3,4]})
-GroupBy	| Agrupamento para agregação	| df.groupby('cat')['valor'].sum()
-Merge	| Combinação de DataFrames por coluna	| pd.merge(df1, df2, on='chave')
-Vectorization	| Operações sem loops	| df['col'] * 2 (vs loop)
-NaN	| Valor ausente	| df.isna(), df.fillna(0)
+
+| Termo | Definição | Exemplo de Código |
+|-------|-----------|-------------------|
+| DataFrame | Estrutura bidimensional do Pandas | `df = pd.DataFrame({'A': [1,2], 'B': [3,4]})` |
+| GroupBy | Agrupamento para agregação | `df.groupby('categoria')['valor'].sum()` |
+| Merge | Combinação de DataFrames por coluna | `pd.merge(df1, df2, on='chave')` |
+| Vectorization | Operações sem loops | `df['col'] * 2` (vs loop) |
+| NaN | Valor ausente | `df.isna()`, `df.fillna(0)` |
 
 # 🔄 Conjunto de Prompts Reutilizáveis para Consulta de Código
 
