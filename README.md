@@ -391,18 +391,28 @@ arr.sum()           # Soma
 🎯 Prompts por Categoria
 
 1. Consulta Rápida de Sintaxe
+
+
 📌 Prompt: "Atue como um assistente de código Python especializado em análise de dados. Com base no material do curso, forneça a sintaxe da função [nome da função] no Pandas/NumPy com: (a) estrutura básica, (b) parâmetros principais, (c) um exemplo prático com dados fictícios, (d) saída esperada. Inclua comentários no código."
 
-2. Solução de Problemas Específicos
+3. Solução de Problemas Específicos
+
+
 📌 Prompt: "Preciso resolver o seguinte problema de análise de dados: [descrever o problema com detalhes]. Com base no material do curso: (a) qual a abordagem recomendada, (b) código passo a passo para solução, (c) explicação de cada etapa, (d) possíveis variações ou alternativas."
 
-3. Otimização de Código
+4. Otimização de Código
+
+
 📌 Prompt: "O seguinte código está lento para processar [quantidade] de dados: [inserir código]. Com base nas boas práticas do curso, sugira otimizações. Forneça: (a) código original com problemas identificados, (b) código otimizado, (c) explicação das melhorias, (d) estimativa de ganho de performance."
 
-4. Debugging e Tratamento de Erros
+5. Debugging e Tratamento de Erros
+
+
 📌 Prompt: "Estou recebendo o erro [descrição do erro] ao executar: [código que gera erro]. Com base no material do curso sobre debugging: (a) qual a causa provável, (b) como corrigir, (c) código corrigido, (d) como evitar esse erro no futuro."
 
-5. Visualização de Dados
+6. Visualização de Dados
+
+
 📌 Prompt: "Preciso criar uma visualização para [descrever dados e objetivo]. Com base no material do curso sobre Matplotlib/Seaborn: (a) qual tipo de gráfico é mais adequado, (b) código completo para criar o gráfico, (c) personalizações recomendadas, (d) como salvar em alta qualidade."
 
 # 🏁 Conclusão
